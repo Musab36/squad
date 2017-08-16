@@ -1,0 +1,11 @@
+.container {
+	background-color: #333;
+	color: cyan;
+	width: 100%;
+	height: 700px;
+}
+#name {
+	color: black;
+	width: 300px;
+	border-radius: 5px;
+}
