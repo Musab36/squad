@@ -4,8 +4,7 @@
 	width: 100%;
 	height: 700px;
 }
-#name {
+.inputs {
 	color: black;
-	width: 300px;
-	border-radius: 5px;
+	
 }

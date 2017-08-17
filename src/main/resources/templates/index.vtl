@@ -1,22 +1,4 @@
-<h1>Super heros squad lists!</h1>
+<h1>Welcome to the Super Hero Squad Application</h1>
 
-
-#if ($hero)
-<ul>
-#foreach ($hero in $heros)
-<p>Current Heros</p>
-<li><p>$hero.getName()</p></li>
-</ul>
-#end
-#else
-<p>No heros!</p>
-#end
-
-<h1>Add a new super hero:</h1>
-
-<form action="/heros" method="post">
-<label for="name">Super Hero Name</label>
-<input id="name" name="name" type="text">
-
-<button type="submit" class="btn btn-info">Add Hero</button>
-</form>
+<button class="btn-default"><a href="/heros/new">Add a new super hero</a></button>
+<button class="btn-default"><a href="/heros">View all current super heros</a></button>
