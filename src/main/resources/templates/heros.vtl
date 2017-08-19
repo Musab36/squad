@@ -4,7 +4,7 @@
 #if ($heros)
   <ul>
     #foreach ($hero in $heros)
-      <li><a href="/heros/$hero.getId()">$hero.getName()</a></li>
+      <li><a href="/heros/$hero.getId()">$hero.getDetails()</a></li>
     #end
   </ul>
 #else

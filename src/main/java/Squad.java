@@ -1,28 +1,17 @@
 import java.util.ArrayList;
 public class Squad {
-private String mName;
-private int mAge;
+private String mDetails;
 private static ArrayList<Squad> instances = new ArrayList<Squad>();
 private int mId;
 
-  public Squad(String name) {
-  	mName = name;
+  public Squad(String details) {
+  	mDetails = details;
   	instances.add(this);
   	mId = instances.size();
   }
 
-  public String getName() {
-  	return mName;
-  }
-
-  public Squad(int age) {
-  	mAge = age;
-  	instances.add(this);
-  	mId = instances.size();
-  }
-
-  public int getAge() {
-  	return mAge;
+  public String getDetails() {
+  	return mDetails;
   }
 
   public static ArrayList<Squad> all() {

@@ -12,13 +12,7 @@ public class SquadTest {
   @Test
   public void Squad_instantiatesWithName_String() {
   	Squad mySquad = new Squad("Heros squad");
-  	assertEquals("Heros squad", mySquad.getName());
-  }
-
-  @Test
-  public void Squad_instantiatesWithAge_int() {
-  	Squad mySquad = new Squad(100);
-  	assertEquals(100, mySquad.getAge());
+  	assertEquals("Heros squad", mySquad.getDetails());
   }
 
   @Test
